@@ -231,159 +231,277 @@ type="text/css" title="Snp sig">
       </tr>
       <tr>
         <td colspan="4"><p class="textzone"><strong><br><br>
-              <img src="img/PU3.gif" width="17" height="14"><img src="img/PU1.gif" width="12" height="12"> VarI-SIG 2015 Meeting Programme
+              <img src="img/PU3.gif" width="17" height="14"><img src="img/PU1.gif" width="12" height="12"> VarI-COSI 2019 Meeting Programme
               <br>
               </strong>
-              <br>
         </p>
           <table width="100%" border="0" cellpadding="3" cellspacing="3">
             <tr>
-              <td><span class="textzone"><strong>08:20 - 08:30</strong></span></td>
-              <td><span class="textzone"> Welcome from the committee </span></td>
-            </tr>
-            <tr>
               <td colspan="2"><span class="textzone"><br><br><strong>
-                    <img src="img/PU.gif" width="12" height="12"> Session 1: Annotation and prediction of structural/functional impacts of coding variants.
+                    <img src="img/PU.gif" width="12" height="12"> Session 1 
+<!--
+Annotation and prediction of structural/functional impacts of genetic variants.
+--->
               </strong>
               <br><br></span></td>
             </tr>
-
             <tr>
-              <td><span class="textzone"><strong>08:30 - 09:20</strong><br>&nbsp; </span></td>
-              <td><span class="textzone"><b>Highlight Speaker:</b> 
-              <a href="" target=blank>
-              <strong>TBA</strong></a> <br>
-              <i>TBA</i> 
-              </span></td>
-            </tr>
-            <tr>
-
-              <td><span class="textzone"><strong>09:20 - 09:45</strong><br>&nbsp;
-		</span></td>
-              <td><span class="textzone">
-              <u>TBA</u>
-              <br><i>TBA</i>
-              </span></td>
+              <td><span class="textzone"><strong>10:15 - 10:20</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"> Welcome from the committee<br>&nbsp; </span></td>
             </tr>
             
             <tr>
-              <td><span class="textzone"><strong>09:45 - 10:10</strong><br>&nbsp;</span></td>
-              <td><span class="textzone">
-              <u>TBA</u>
-              <br><i>TBA</i>
+              <td><span class="textzone"><strong>10:20 - 11:00</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"><strong>Invited Speaker:</strong> 
+	      TBA
+<!--
+              <a href="http://grib.imim.es/about-us/laurai-furlong/" target=blank><strong>Laura Furlong.</strong></a>
+              Hospital del Mar Medical Research Institute, Barcelona (Spain).
+              <br>
+              <i>
+              The DisGeNET platform of disease genomics to support variant interpretation.
+              </i>
+-->
+              </span></td>
+         </tr>
+
+
+            <tr>
+
+              <td><span class="textzone"><strong>11:00 - 11:20</strong><br>&nbsp;
 		</span></td>
-            </tr>
-            <tr>
-              <td><span class="textzone"><strong>10:10 - 10:30</strong></span></td>
-              <td><span class="textzone">Coffee Break</span></td>
-            </tr>
-            <tr>
-              <td><span class="textzone"><strong>10:30 - 10:55</strong><br>&nbsp;</span></td>
-              <td><span class="textzone">
-              <u>TBA</u> 
-			  <br><i> TBA</i>
+              <td><span class="textzone"> 
+	      TBA
+<!--
+              <u>James Stephenson.</u> ENBL-EBI, Hinxton, (United Kingdom).  <br><i>
+	      Enrichment and Clustering of Rare Genetic Variants using Shared Protein Structure Domains.</i>
+-->
               </span></td>
-            </tr>
-         <tr>
-              <td><span class="textzone"><strong>10:55 - 11:20</strong></span></td>
-              <td><span class="textzone"><u>TBA</u>
-			  <br><i>TBA</i>
-              </span></td>
-            </tr>
-         <tr>
-              <td><span class="textzone"><strong>11:20 - 12:10</strong><br>&nbsp;</span></td>
-              <td><span class="textzone"><b>Highlight Speaker:</b> 
-              <a href="" target=blank><strong>TBA</strong></a><br>
-              <i>TBA</i>
-             </span></td>
             </tr>
             
+<tr>
+              <td><span class="textzone"><strong>11:20 - 11:40</strong><br>&nbsp;</span></td>
+              <td><span class="textzone">
+	      TBA
+<!--
+
+              <u>Lambert Moyon.</u> Ecole Normale Superieure, Paris (France).
+              <br><i>
+ 	      Annotation and prioritization of non-coding variants in the context of human diseases.
+              </i>
+-->
+		</span></td>
+
+            </tr>
+            <tr>
+              <td><span class="textzone"><strong>11:40 - 12:00</strong><br>&nbsp;<br>&nbsp;</span></td>
+              <td><span class="textzone">
+	      TBA
+<!--
+              <u>Alexander Gress.</u>  Helmholtz Centre for Infection Research, Saarbrucken (Germany).
+	      <br><i>
+		The importance of being unbiased: why protein structure and training setup are important for predicting 
+                novel <br>pathogenic genetic variants.<br>
+              </i>
+-->
+              </span></td>
+            </tr>
+         <tr>
+              <td><span class="textzone"><strong>12:00 - 12:20</strong><br>&nbsp;</span></td>
+              <td><span class="textzone">
+	      TBA
+<!--
+		<u>Alexandre Renaux.</u> Universite Libre de Bruxelles, Bruxelles (Belgium).
+		<br>
+		<i>  
+                Towards oligogenic disease prediction with ORVAL: a web-platform to uncover pathogenic variant combinations.
+		  </i>
+-->
+
+              </span></td>
+            </tr>
+         <tr>
+              <td><span class="textzone"><strong>12:20 - 12:30</strong><br>&nbsp;</span></td>
+              <td><span class="textzone">
+	      TBA
+<!--
+		<u>Jun Cheng.</u> Technical University of Munich, Munich (Germany).
+              <br><i>
+              MMSplice: modular modeling improves the predictions of genetic variant effects on splicing.</i>
+-->
+              </span></td>
+            </tr>
 	    <tr>
-              <td><span class="textzone"><strong>12:10 - 12:25</strong></span></td>
-              <td><span class="textzone"><b>Company Presentation: TBA</b> 
-             <b><a href="" target=blank></a></b>
-	      </span></td>
-            </tr>
-            
-            <tr>
-              <td><span class="textzone"><br /><strong>12:25 - 13:10</strong></span></td>
-              <td><span class="textzone"><br /><b>Lunch Break and Poster Session with the Authors.</b>
+              <td><span class="textzone"><strong>12:30 - 12:40</strong><br>&nbsp;</span></td>
+	      <td><span class="textzone">
+	      TBA
+<!--
+                <u>Saikat Banerjee.</u> Max Planck Institute for Biophysical Chemistry, Gottingen (Germany).
+              <br><i>
+              Bayesian multiple logistic regression for case-control GWAS.
+              </i>
+-->
               </span></td>
 
             </tr>
+            
+            <tr>
+              <td><span class="textzone"><br /><strong>12:40 - 14:00</strong></span></td>
+              <td><span class="textzone"><br /><b>Lunch Break.</b>
+              </span></td>
+            </tr>
+          
             <tr>
               <td colspan="2"><span class="textzone"><strong><br />
                   <br />
                     <img src="img/PU.gif" alt="" width="12" height="12" /> 
-                    Session 2: Genetic variants as effectors of change: disease and evolution. <br />
+                    Session 2
+<!--
+    Genetic variants as effectors of change: disease and evolution. <br />
+-->
               <br />
               </strong></span></td>
               </tr>
-
             <tr>
-              <td><span class="textzone"><strong>13:20 - 14:10</strong><br>&nbsp;</span></td>
-              <td><span class="textzone"><strong>Highlight Speaker:</strong> 
-              <a href="" target=blank><strong>TBA</strong></a><br>
-               <i>TBA</i>
+              <td><span class="textzone"><strong>14:00 - 14:05</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"> VarI-COSI afternoon session<br>&nbsp; </span></td>
+            </tr>
+            <tr>
+              <td><span class="textzone"><strong>14:05 - 14:45</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"><strong>Invited Speaker:</strong> 
+	      TBA
+<!--
+	      <a href="http://www.eva.mpg.de/genetics/staff/janet-kelso/"target=blank><strong>Janet Kelso.</strong></a>
+              Max Planck Institute for Evolutionary Anthropology, Leipzig (Germany).
+              <br>
+               <i>
+		What ancient humans can teach us about modern genetic variation.
+               </i>
+-->
               </span></td>
             </tr>
             <tr>
-              <td><span class="textzone"><strong>14:10 - 14:35</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"><strong>14:45 - 15:05</strong><br>&nbsp;</span></td>
               <td><span class="textzone">
-              <u>TBA</u>.
-              <i><br>TBA</i>
+	      TBA
+<!--
+              <u>Shaojie Zhang.</u> University of Central Florida, Orlando (FL).
+              <i><br> 
+	      Efficient haplotype matching between a query and a panel for genealogical search.
+              </i>
+-->
 			</span></td>
             </tr>
             <tr>
-              <td><span class="textzone"><strong>14:35 - 15:00</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"><strong>15:05 - 15:25</strong><br>&nbsp;</span></td>
               <td><span class="textzone">
-              <u>TBA</u>
-			  <br><i>TBA</i>
-<span></td>
+	      TBA
+<!--
+              <u>Daniel Carlin.</u> University of California, San Diego (CA).<br>
+              <i>
+	      A fast and flexible framework for network assisted genomic association.
+	      </i>
+-->
+              <span></td>
             </tr>
-              <td><span class="textzone"><strong>15:00 - 15:25 </strong><br>&nbsp;</span></td>
+	    <tr>
+              <td><span class="textzone"><strong>15:25 - 15:45 </strong><br>&nbsp;<br>&nbsp;</span></td>
               <td><span class="textzone">
-              <u>TBA</u>
-              <br><i>TBA</i>
+              TBA
+<!--
+              <u>Erwin Frise</u> Fabric Genomics, Oakland (CA). 
+              <br><i>
+	      An Artificial Intelligence Engine for High-Throughput ACMG/AMP Classification of Genetic Variants for Inherited 
+              <br>Disease Clinical Gene Panels
+              </i>
+-->
+
 			  </span></td>
             </tr>
-            <tr>
-            <td><span class="textzone"><strong>15:25 - 15:45</strong></span></td>
-            <td><span class="textzone">Coffee Break</span></td>
-            </tr>
-            <tr>
-              <td><span class="textzone"><strong>15:45 - 15:50</strong>&nbsp;</span></td>
-              <td><span class="textzone"><b>The MD Corner </b></span> 
-              </td>
-            </tr>
             
+	     <tr>
+              <td><span class="textzone"><strong>15:45 - 16:00</strong><br>&nbsp;<br>&nbsp;</span></td>
+              <td><span class="textzone"><b>Company Presentation:</b>
+	     TBA
+<!--
+             <b><a href="https://www.variantyx.com/" target=blank>Alexander Kaplun - Variantyx.</a></b>
+             <br>
+              <i>Whole Genome Sequencing (WGS) as a first-line diagnostic test: Its success is in the details.
+	      <br>&nbsp;</i>
+-->
+              </span></td>
+            </tr>
             <tr>
-              <td><span class="textzone"><strong>15:50 - 16:35</strong><br>&nbsp;</span></td>
-              <td><span class="textzone"><b>Highlight Speaker:</b></span> 
-              <a href="" target=blank><strong>
-              TBA</strong></a><br>
-              <i>TBA</i> 
-              </td>
+            <td><span class="textzone"><strong>16:00 - 16:40</strong><br>&nbsp;</span></td>
+            <td><span class="textzone"><b>Coffee Break</b><br>&nbsp;</span></td>
             </tr>
 
-			<tr>
-              <td><span class="textzone"><strong>16:35 - 17:20</strong><br>&nbsp;</span></td>
-              <td><span class="textzone"><b>Highlight Speaker:</b></span> 
-              <a href="" target=blank><strong>TBA
-              </strong></a><br>
-              <i>TBA</i> 
-              </td>
-            </tr>
-            <tr>
-              <td><span class="textzone"><strong>17:20 - 18:05</strong><br>&nbsp;</span></td>
-              <td><span class="textzone"><b>Round Table discussion:</b><br> 
-              <b><a href="" target=blank>TBA</a></b>
+	    <tr>
+              <td><span class="textzone"><strong>16:40 - 17:20</strong><br>&nbsp;<br>&nbsp;</span></td>
+              <td><span class="textzone"><b>Invited Speaker:</b>
+	      TBA
+<!--
+              <a href="https://www.mailman.columbia.edu/people/our-faculty/ii2135" target=blank>
+             <strong>Iuliana Ionita-Laza.</strong></a> Columbia University, New York (NY).<br>
+              <i>Integrative statistical approaches for predicting functional effects of variants in noncoding regions
+                 of the<br>genome.
+                </i>
+-->
               </span></td>
             </tr>
 
+         <tr>
+              <td><span class="textzone"><strong>17:20 - 17:40</strong><br>&nbsp;<br>&nbsp;</span></td>
+              <td><span class="textzone">
+              TBA
+<!--
+		 <u>Alexander Schoenhuth.</u> Centrum Wiskunde en Informatica, Amsterdam (Netherland).
+                          <br><i>
+			 Using the structure of genome data in the design of deep neural networks for predicting amyotrophic lateral<br> sclerosis from genotype. 
+                          </i>
+-->
+              </span></td>
+            </tr>
+         <tr>
+              <td><span class="textzone"><strong>17:40 - 17:50</strong><br>&nbsp;</span></td>
+              <td><span class="textzone">
+              TBA
+<!--
+		   <u>Andrea Castro.</u> University of California, San Diego (CA).
+                          <br><i>
+			Elevated neoantigen levels in tumors with somatic mutations in the HLA-A, HLA-B, HLA-C and B2M genes.
+                          </i>
+-->
+              </span></td>
+            </tr>
+         <tr>
+              <td><span class="textzone"><strong>17:50 - 18:00</strong><br>&nbsp;<br>&nbsp;</span></td>
+              <td><span class="textzone">
+              TBA
+<!--
+                   <u>Michal Sadowski.</u> University of Warsaw, Warsaw (Poland).
+                          <br><i>
+   			  Spatial Chromatin Architecture Alteration by Structural Variations in Human Genomes at Population Scale
+                          </i>
+-->
+  			 <br>&nbsp;
+              </span></td>
+            </tr>
+<!--
             <tr>
-              <td><span class="textzone"><strong>18:05 - 18:15</strong></span></td>
-              <td><span class="textzone">Closing remarks from the committee</span></td>
+              <td><span class="textzone"><strong>17:20 - 18:00</strong><br>&nbsp;</span></td>
+              <td><span class="textzone"><b>Round table discussion.</b><br>&nbsp; 
+              
+              </span></td>
+            </tr>
+-->
+            <tr>
+              <td><span class="textzone"><strong>18:00 - 18:05</strong></span></td>
+              <td><span class="textzone">Closing remarks from the committee.</span></td>
+            </tr>
+            <tr>
+              <td><span class="textzone"><strong>18:05 - 20:00</strong></span></td>
+              <td><span class="textzone"><b>Online Poster session with the authors.</b></span></td>
             </tr>
 			
           </table><br /><br /><br />
