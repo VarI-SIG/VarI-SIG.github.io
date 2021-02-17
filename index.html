@@ -1,335 +1,175 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="VarI-SIG, VarI-COSI, Variant Interpretation,
-community of special interest, Special Interest Group, Genetic Variants, Annotation">
-<title>VarI-COSI - Variant Interpretation Community Of Special Interest</title>
-<style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Variant Interpretation COSI">
+    <meta name="author" content="Emidio Capriotti">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon" />
 
-body {
-	background-color: #FE9901;
-}
-#dropmenudiv{
-position:absolute;
-border:1px WHITE;
-border-bottom-width: 0;
-font:normal 14px Verdana, Arial, Helvetica, sans-serif;
-line-height:16px;
-z-index:100;
-}
+    <title>Variant Interpretation - COSI </title>
 
-#dropmenudiv a{
-width: 220px;
-display: block;
-text-indent: 3px;
-border-bottom: 1px WHITE;
-padding: 1px 0;
-text-decoration: none;
-font-weight: bold;
-}
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
-#dropmenudiv a:hover{ /*hover background color*/
-color: #79a631;
-background-color: #ffffff;
-}
-</style>
-<script type="text/javascript">
-//Contents for menu 2, and so on
-var menu2=new Array()
-menu2[0]='<a href="topics.html">Topics</a>'
-menu2[1]='<a href="kd.html">Key dates</a>'
-menu2[2]='<a href="schedu.html">Schedule</a>'
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    -->
 
-var menu3=new Array()
-menu3[0]='<a href="abstract.html">Talks and Posters</a>'
-menu3[1]='<a href="company.html">Company Involvement</a>'
-menu3[2]='<a href="special.html">Special Issue</a>'
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron-narrow-biofold.css" rel="stylesheet">
 
-var menu4=new Array()
-menu4[0]='<a href="people.html">People</a>'
-menu4[1]='<a href="conta.html">Contact</a>'
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+    -->
 
 
-var menuwidth='165px' //default menu width
-var menubgcolor='#FFFFFF'  //menu bgcolor
-var disappeardelay=250  //menu disappear speed onMouseout (in miliseconds)
-var hidemenu_onclick="yes" //hide menu when user clicks within menu?
 
-/////No further editting needed
+  </head>
 
-var ie4=document.all
-var ns6=document.getElementById&&!document.all
+  <body>
+    <br>
+    <div class="container">
 
-if (ie4||ns6)
-document.write('<div id="dropmenudiv" style="visibility:hidden;width:'+menuwidth+';background-color:'+menubgcolor+'" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+      <div class="jumbotron">
+        <table width="100%">
+        <tr>
+        <td width="80%">
+	<div class='biofold' >
 
-function getposOffset(what, offsettype){
-var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
-var parentEl=what.offsetParent;
-while (parentEl!=null){
-totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
-parentEl=parentEl.offsetParent;
-}
-return totaloffset;
-}
+        <span style="color:#d97b2d;font-size:150%">VarI</span>
+        <span style="color:#d97b2d;font-size:50%">c</span><span style="font-size:50%">ommunity </span>
+        <span style="color:#d97b2d;font-size:50%">o</span><span style="font-size:50%">f  </span>
+        <span style="color:#d97b2d;font-size:50%">s</span><span style="font-size:50%">pecial </span>
+        <span style="color:#d97b2d;font-size:50%">i</span><span style="font-size:50%">nterest </span>
 
-function showhide(obj, e, visible, hidden, menuwidth){
-if (ie4||ns6)
-dropmenuobj.style.left=dropmenuobj.style.top=-500
-if (menuwidth!=""){
-dropmenuobj.widthobj=dropmenuobj.style
-dropmenuobj.widthobj.width=menuwidth
-}
-if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
-obj.visibility=visible
-else if (e.type=="click")
-obj.visibility=hidden
-}
-
-function iecompattest(){
-return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
-}
-
-function clearbrowseredge(obj, whichedge){
-var edgeoffset=0
-if (whichedge=="rightedge"){
-var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
-dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
-if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
-edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
-}
-else{
-var topedge=ie4 && !window.opera? iecompattest().scrollTop : window.pageYOffset
-var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
-dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
-if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure){ //move up?
-edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
-if ((dropmenuobj.y-topedge)<dropmenuobj.contentmeasure) //up no good either?
-edgeoffset=dropmenuobj.y+obj.offsetHeight-topedge
-}
-}
-return edgeoffset
-}
-
-function populatemenu(what){
-if (ie4||ns6)
-dropmenuobj.innerHTML=what.join("")
-}
-
-function dropdownmenu(obj, e, menucontents, menuwidth){
-if (window.event) event.cancelBubble=true
-else if (e.stopPropagation) e.stopPropagation()
-clearhidemenu()
-dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
-populatemenu(menucontents)
-
-if (ie4||ns6){
-showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
-dropmenuobj.x=getposOffset(obj, "left")
-dropmenuobj.y=getposOffset(obj, "top")
-dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
-dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
-}
-
-return clickreturnvalue()
-}
-
-function clickreturnvalue(){
-if (ie4||ns6) return false
-else return true
-}
-
-function contains_ns6(a, b) {
-while (b.parentNode)
-if ((b = b.parentNode) == a)
-return true;
-return false;
-}
-
-function dynamichide(e){
-if (ie4&&!dropmenuobj.contains(e.toElement))
-delayhidemenu()
-else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
-delayhidemenu()
-}
-
-function hidemenu(e){
-if (typeof dropmenuobj!="undefined"){
-if (ie4||ns6)
-dropmenuobj.style.visibility="hidden"
-}
-}
-
-function delayhidemenu(){
-if (ie4||ns6)
-delayhide=setTimeout("hidemenu()",disappeardelay)
-}
-
-function clearhidemenu(){
-if (typeof delayhide!="undefined")
-clearTimeout(delayhide)
-}
-
-if (hidemenu_onclick=="yes")
-document.onclick=hidemenu
-
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-</script>
-<link rel="stylesheet" href="/css/style.css"
-type="text/css" title="Snp sig">
-</head>
-<body>
-<div id="main">
-<br />
-<br />
-<br />
-<table width="880" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="style1">
-  <tr>
-    <td width="39" height="39" align="top"><img src="/img/angolo.jpg" alt="" width="39" height="39" align="top" /></td>
-    <td>&nbsp;</td>
-    <td width="39" height="39"><img src="/img/angolo-alt-ds.jpg" width="39" height="39" align="top" /></td>
-  </tr>
-  <tr>
-    <td width="39">&nbsp;</td>
-    <td><div id="content"><table border="0">
-      <tr>
-        <td colspan="3"><img src="/img/vari.gif" width="524" height="110" /></td>
-        <td><div align="right"><img src="/img/abacov.jpg" width="162" height="110" /></div></td>
-      </tr>
-     <tr>
-        <td ><br >
-          </td>
+        </div>
+        <!--
+        <div class='biofold' ><span style="color:#c31e27;">Bio</span><span style="color:#4689a3;">molecules</span> <span style="color:#c31e27;">Fol</span><span style="color:#4689a3;">ding and </span><span style="color:#c31e27;">D</span><span style="color:#4689a3;">isease</span></div><br>
+        -->
+	</td>
+	<td width="20%">
+	<div class="right_cell">
+        <a href="./index.html">
+        <img src="./img/abacov.jpg" width="150px" align="center">
+        </a>
+        </div>
+	</td>
+	</tr>
+	</table>
+  <br>
+	<table width="100%">
+        <tr>
+        <td>
+        <div class="form-inline justify-content-center">
+        <nav>
+          <ul class="nav nav-pills">
+            <li role="presentation" class='active'><a href="./index.html">Home</a></li>
+            <li role="presentation" ><a href="./schedule.html">Schedule</a></li>
+            <li role="presentation"><a href="./submission.html">Submission</a></li>
+            <li role="presentation" ><a href="./publication.html">Publication</a></li>
+            <li role="presentation" ><a href="./company.html">Company</a></li>
+	    <li role="presentation"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        </div>
+        </td>
         </tr>
-      <tr>
-        <td><div id="menu"><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','img/bottoni-home2.gif',1)"><img src="/img/bottoni-home.gif" name="Image7" width="45" height="22" border="0" id="Image7" /></a></div></td>
-        <td><div id="menu"><a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu2, '165px')" onMouseout="delayhidemenu()"><img src="/img/bottoni-prog.gif" width="78" height="22" border="0" /></a></div></td>
-        <td><div id="menu"><a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu3, '165px')" onMouseout="delayhidemenu()"><img src="/img/bottoni-sub.gif" width="113" height="22" border="0" /></a></div></td>
-        <td><div id="menu"><a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu4, '165px')" onMouseout="delayhidemenu()"><img src="/img/bottoni-organizz.gif" width="138" height="22" border="0" /></a></div></td>
-      </tr>
-      <tr>
-        <td colspan="4"> <p class="textzone">
-        <br />
-        <h2>VarI-COSI: Identification and annotation of genetic variants in the context of structure, function, and disease.
-        </h2>
-        </p>
-        <p class="textzone"><h3>GENERAL INFO:</h3>
-                  <b>WHAT:</b>  Variant Interpretation Session at the Virtual ISMB Conference 2020<br>
-		  <b>WHEN:</b>  10:30 AM - 6:00 PM, July 15th, 2020<br>
-		  <b>WHERE:</b> Online Meeting.<br />
-		  <br />
-		</strong>
-		<img src="/img/PU3.gif" width="17" height="14" /><img src="/img/PU1.gif" width="12" height="12" />
-                VarI-COSI Session 2020 - <a href="/schedu.html"><b>Final Program</b></a>
-                </i>
-                <br><br>
-		Due to the COVID19 emergency this year the <b>ISMB conference takes place virtually</b> from July 13-16, 2020. 
-	        The virtual conference platform will feature live talks, pre-recorded sessions, a virtual exhibit hall, 
-                a virtual poster hall, on-demand talks and features that will allow the participants to interact while 
-                viewing the  sessions including a Q&A feature.
-                <br><br>
-<!--
-		<img src="img/PU3.gif" width="17" height="14" /><img src="img/PU1.gif" width="12" height="12" />
-                <b>Open Call for <a href="./op.html">Presentation Proposals</a>
-		and <a href="./pa.html">Poster Abstracts</a>.</b>
--->
+        </table>
+    <br>
+  	<br>
+    <!--
+      <div class="text">
+      <h4 class="title" >General info</h4>
+      </div>
+      <p class="text">
+      <span style="color:#d97b2d;font-weight:400;">What:</span> Variant Interpretation Session at the Virtual ISMB Conference 2021<br>
+      <span style="color:#d97b2d;font-weight:400;">When:</span> TBA<br>
+      <span style="color:#d97b2d;font-weight:400;">Where:</span> Online Meeting.<br><br>
+    -->
+     <div class="text">
+     <h4 class="title" >Aims</h4>
+     </div>
 
-<!--
-    		<blink><font color="red"></font></blink>
-		<a href="docs/vari-sig-2016-programme.pdf"><img src="img/pdf.gif"></a></i>
-		<br />
-		<br />
--->
-		</strong>
-		<h3>COSI AIMS:</h3>
-		The primary goal of the VarI-COSI is to outline and discuss the recent advances in the<strong> methodology for the annotation and analysis of genetic variants</strong>.
-	        Building upon the experience of the <b>previous VarI-SIG and SNP-SIG</b> editions:
-	    <ul>
-				<li>
-	                <a href="/2019"><strong>VarI-COSI 2019</strong></a> in Basel, July 24, 2019
-	            </li>
-	    <li>
-                <a href="/2018"><strong>VarI-COSI 2018</strong></a> in Chicago, July 8, 2018
-            </li>
-	    <li>
-                <a href="/2017"><strong>VarI-COSI 2017</strong></a> in Prague, July 24, 2017
-            </li>
-	    <li>
-	    	<a href="/2016"><strong>VarI-SIG 2016</strong></a> in Orlando, July 9, 2016
-	    </li>
-	    <li>
-	    <a href="/2015"><strong>VarI-SIG 2015</strong></a> in Dublin, July 11, 2015
-	    </li>
-		<li>
-		<a href="/2014"><strong>VarI-SIG 2014</strong></a> in Boston, July 12, 2014
-		</li>
-		<li>
-		<a href="/2013"><strong>SNP-SIG 2013</strong></a> in Berlin, July 19, 2013
-		</li>
-		<li>
-		<a href=".2012"><strong>SNP-SIG 2012</strong></a> in Long Beach, July 14, 2012
-		</li>
-		<li>
-		<a href="/2011"><strong>SNP-SIG 2011</strong></a> in Vienna, July 15, 2011.
-		</li>
-	     </ul>
-	     and other international workshops and meetings
-	    (e.g. <a href="http://www.eccb10.org/index.php/workshops/workshop2" target="_blank"><strong>AIMM2010</strong></a>, <a href="http://genomeinterpretation.org/" target="_blank"><strong>CAGI</strong></a>, <a href="http://www.hgvs.org/DC/" target="_blank"><strong>HGVS 2010</strong></a> and <a href="http://psb.stanford.edu/" target="_blank"><strong>PSB2011</strong></a>)
-	    the VarI-COSI will serve to <strong>build a research network </strong>,
-	    facilitating the exchange of ideas and the establishment of new
-	    collaborations within the community. Thus, Vari-COSI will strive
-	    to meaningfully contribute to the management of the complexity of the
-	    analysis and evaluation of genetic variants.
-            <br />
-            <br />
-            We are interested in submissions describing original work in all the fields of genetic variants research including, but not limited to "genetic variants in":
-		<br />
-		<br>
-		<li>sequence analysis</li>
-		<li>protein structure and function</li>
-		<li>protein interactions and molecular networks</li>
-		<li>transcriptomics and gene regulation</li>
-		<li>disease models and epidemiology</li>
-		<li>population genetics and evolution</li>
-		<li>comparative genomics</li>
+  <div class="text">
 
-            <br />
-            <a href="topics.html"><h3>TOPICS OF INTEREST</strong>: <br /></h3></a>
-            <img src="/img/PU3.gif" width="17" height="14" /> <strong>Databases, data mining algorithms and visualization tools for genetic variants analysis</strong><br /><br />
-            <img src="/img/PU3.gif" alt="" width="17" height="14" />  <strong>Methods for predicting regulatory/structural/functional impacts of genetic variants</strong><br /><br />
-            <img src="/img/PU3.gif" alt="" width="17" height="14" />  <strong>Personal Genomics, GWAS studies and SNV prioritization</strong>        <br /><br />
-            <img src="/img/PU3.gif" alt="" width="17" height="14" />  <strong>Population genomics and phylogenetic analysis
-
-
-              <br />
-              </strong><br />
-            <br />
-            <br />
-
-            </p></td>
-      </tr>
-      <tr>
-        <td colspan="4" class="footer" ></td>
-      </tr>
+    <table class="paper" border=0>
+        <tbody><tr><td valign=top>
+    <tr>
+    <td valign=top>
+    The primary goal of the ISCB Variant Interpretation (VarI) community of special interest (COSI) is to outline and discuss
+    the recent advances in the methodology for the annotation and  analysis of genetic variants. Building upon the experience of
+    the previous VarI and SNP COSI editions
+   (<a href='pages/vari-2020.html'>Online 2020</a>,
+    <a href='pages/vari-2019.html'>Basel 2019</a>,
+    <a href='pages/vari-2018.html'>Chicago 2018</a>,
+    <a href='pages/vari-2017.html'>Prague 2017</a>,
+    <a href='pages/vari-2016.html'>Dublin 2016</a>,
+    <a href='pages/vari-2015.html'>Orlando 2015</a>,
+    <a href='pages/vari-2014.html'>Boston 2014</a>,
+    <a href='pages/vari-2013.html'>Berlin 2013</a>,
+    <a href='pages/vari-2012.html'>Long Beach 2012</a>,
+    <a href='pages/vari-2011.html'>Vienna 2011</a>)
+    and  other international workshops and meetings
+    (e.g. AIMM2010, CAGI, HGVS 2010 and PSB2011) the VarI-COSI will serve to build a research network, facilitating the exchange
+    of ideas and the establishment of new collaborations within the community.
+    Thus, Vari-COSI will strive to meaningfully contribute to the management of
+    the complexity of the analysis and evaluation of genetic variants.
+    For more information follow us on:<br><br>
+    <center>
+    <a href="https://varicosi.slack.com/"><img width="28" src="img/slack.png"></a>&nbsp;
+    <a href="https://twitter.com/varicosi"><img width="32" src="img/twitter.png"></a>
+    </center>
+    <br>
+    We are interested in works presenting original studies in all the fields of genetic variants research including,
+    but not limited to "genetic variants in": sequence analysis, protein structure and function,
+    protein interactions and molecular networks, transcriptomics and gene regulation, disease models and epidemiology,
+    population genetics and evolution, comparative genomics. Abstracts and posters can be submitted through the following
+    link <br><br>
+    <center>
+    <a href="https://easychair.org/my/conference?conf=ismbeccb2021abstracts#" target=_blank><img height="22" src="img/submit.png"></a>
+    </center>
+    </td></tr>
+    </tbody>
     </table>
+    </p>
+    <br>
+    <div class="text">
+    <h4 class="title" >Topics</h4>
     </div>
-    <!--End Content-->
-      </td>
-    <td width="39">&nbsp;</td>
-  </tr>
+    <p class="text">
+    The VarI COSI meeting is broadly divided in two sessions (“Genetic variants as markers: evolution, populations, GWAS” and
+    “Genetic variants as effectors: function, structure, and regulation”) that encompass the four major research topics of
+    the field:
+    <br>
 
-  <tr>
-    <td width="39" height="39"><img src="/img/angolo-abasso-sin.jpg" width="39" height="39" /></td>
-    <td>&nbsp;</td>
-    <td width="39" height="39"><img src="/img/angolo-abasso-ds.jpg" width="39" height="39" /></td>
-  </tr>
-</table>
-<br>
-<br>
-</div>
-</body>
+    <br>
+    <ul>
+    <li><span style="color:#d97b2d;font-weight:400;">Databases, data mining algorithms and visualization tools for variants analysis.</span>
+    </ul><ul>
+    <li><span style="color:#d97b2d;font-weight:400;">Methods for predicting regulatory/structural/functional impacts of SNVs.</span>
+    </ul><ul>
+    <li><span style="color:#d97b2d;font-weight:400;">Personal Genomics, GWAS studies and SNV prioritization.</span>
+    </ul><ul>
+    <li><span style="color:#d97b2d;font-weight:400;">Population genomics and phylogenetic analysis.</span>
+    <ul>
+    <p>
+
+
+   </div>
+   <br>
+    <br>
+    <div class='footer-ok'><div>
+
+      </div>
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    -->
+  </body>
 </html>
